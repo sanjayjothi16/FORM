@@ -1,0 +1,53 @@
+#title {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  #description {
+    text-align: center;
+  }
+  
+  #survey-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 4rem auto;
+  }
+  
+  #last-name {
+    margin-top: -1rem;
+  }
+  
+  #genderDivLabel {
+    margin-bottom: -2rem;
+  }
+  #genderDiv {
+    border: 1px solid rgb(236, 225, 225);
+    padding: 6px 12px;
+  }
+  
+  #fieldset1Label {
+    margin-bottom: -2rem;
+  }
+  #country {
+    margin-bottom: 1rem;
+  }
+  
+  #tableDiv {
+    overflow-x: scroll;
+    margin: 1rem auto;
+    max-width: 1280px;
+  }
+  
+  @media (max-width: 800px) {
+    #survey-form {
+      margin: 3rem;
+      max-width: 100%;
+    }
+    #tableDiv {
+      margin: 1rem;
+    }
+  }
+  #html {
+   background-color: blue;
+  }
